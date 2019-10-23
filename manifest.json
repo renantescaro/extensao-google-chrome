@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Anotações",
+    "description": "Extensão para anotações",
+    "author": "Renan Tescaro",
+    "browser_action": {
+   	 "default_title": "Anotações",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icone.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "declarativeContent"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
